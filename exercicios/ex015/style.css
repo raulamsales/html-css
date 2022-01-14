@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: brown;
+    color: floralwhite;
+}
+h1, h2, p {
+    font-family: Helvetica;
+}
