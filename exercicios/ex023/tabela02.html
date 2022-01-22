@@ -21,6 +21,10 @@
             background-color: darkgray;
             color: white;
         }
+
+        tr:nth-child(odd) {
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
@@ -29,7 +33,7 @@
         <thead>
             <tr>
                 <th>Estado</th>
-                <th>População</th>
+                <th style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -52,6 +56,9 @@
                 <td>00000</td>
             </tr>
         </tfoot>
+        <caption>
+            Teste de Caption
+        </caption>
     </table>
 </body>
 </html>
